@@ -1,0 +1,46 @@
+.card {
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 20rem;
+  padding: 1.5rem 1rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.content > h2 {
+  font-family: "Roboto";
+  letter-spacing: 1px;
+  color: #705df2;
+  text-align: center;
+  margin: 8px;
+}
+
+.content > p {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 12px;
+}
+
+.socials {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.social {
+  margin: 0 10px;
+  color: #705df2;
+}
+
+.social:hover {
+  color: #150c21;
+}

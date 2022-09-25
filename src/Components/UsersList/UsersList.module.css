@@ -1,0 +1,19 @@
+.users-list {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 1080px) {
+  .users-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 756px) {
+  .users-list {
+    grid-template-columns: 1fr;
+  }
+}

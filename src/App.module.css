@@ -1,0 +1,13 @@
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  font-family: "Roboto";
+}
+
+.text > span {
+  margin: 0 5px;
+  font-weight: 600;
+  color: #705df2;
+}

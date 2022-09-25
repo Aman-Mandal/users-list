@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap");
+
+.navbar {
+  background-color: #150c21;
+  padding: 1.4rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Roboto";
+}
+
+.btn {
+  background-color: #705df2;
+  color: white;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Roboto";
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn:hover {
+  background: white;
+  color: #705df2;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 1rem 2rem;
+  }
+}
